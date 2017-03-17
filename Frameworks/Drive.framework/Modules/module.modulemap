@@ -1,0 +1,10 @@
+framework module Drive {
+  umbrella header "Drive.h"
+
+  export *
+  module * { export * }
+}
+
+module Drive.Swift {
+    header "Drive-Swift.h"
+}
